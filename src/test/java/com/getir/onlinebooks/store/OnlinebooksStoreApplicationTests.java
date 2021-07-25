@@ -1,10 +1,10 @@
-package com.getir.onlinebooks;
+package com.getir.onlinebooks.store;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OnlinebooksApplicationTests {
+class OnlinebooksStoreApplicationTests {
 
     @Test
     void contextLoads() {
