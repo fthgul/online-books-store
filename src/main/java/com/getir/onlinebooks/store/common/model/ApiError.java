@@ -1,4 +1,4 @@
-package com.getir.onlinebooks.store.common;
+package com.getir.onlinebooks.store.common.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;

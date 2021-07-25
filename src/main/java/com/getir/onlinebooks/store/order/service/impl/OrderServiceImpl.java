@@ -4,7 +4,7 @@ import com.getir.onlinebooks.store.book.entity.Book;
 import com.getir.onlinebooks.store.book.entity.Inventory;
 import com.getir.onlinebooks.store.book.service.BookService;
 import com.getir.onlinebooks.store.book.service.InventoryService;
-import com.getir.onlinebooks.store.common.AppPage;
+import com.getir.onlinebooks.store.common.model.AppPage;
 import com.getir.onlinebooks.store.order.entity.Order;
 import com.getir.onlinebooks.store.order.entity.OrderItem;
 import com.getir.onlinebooks.store.order.exception.OrderEntityNotFoundException;

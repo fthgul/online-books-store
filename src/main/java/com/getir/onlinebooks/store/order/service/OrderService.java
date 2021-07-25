@@ -1,6 +1,6 @@
 package com.getir.onlinebooks.store.order.service;
 
-import com.getir.onlinebooks.store.common.AppPage;
+import com.getir.onlinebooks.store.common.model.AppPage;
 import com.getir.onlinebooks.store.order.entity.Order;
 import com.getir.onlinebooks.store.order.model.OrderDTO;
 import com.sun.istack.NotNull;

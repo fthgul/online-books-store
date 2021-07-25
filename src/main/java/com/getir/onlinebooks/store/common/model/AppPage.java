@@ -1,4 +1,4 @@
-package com.getir.onlinebooks.store.common;
+package com.getir.onlinebooks.store.common.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

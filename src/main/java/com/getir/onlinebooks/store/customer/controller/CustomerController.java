@@ -1,6 +1,6 @@
 package com.getir.onlinebooks.store.customer.controller;
 
-import com.getir.onlinebooks.store.common.AppPage;
+import com.getir.onlinebooks.store.common.model.AppPage;
 import com.getir.onlinebooks.store.customer.entity.Customer;
 import com.getir.onlinebooks.store.customer.service.CustomerService;
 import com.getir.onlinebooks.store.order.entity.Order;

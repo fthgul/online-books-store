@@ -1,6 +1,6 @@
 package com.getir.onlinebooks.store.common.exceptionhandler;
 
-import com.getir.onlinebooks.store.common.ApiError;
+import com.getir.onlinebooks.store.common.model.ApiError;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
