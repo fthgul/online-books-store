@@ -29,8 +29,8 @@ public class CustomerController {
     }
 
     @PostMapping("register")
-    public Customer registerNewCustomer(@RequestBody @Valid Customer customer) {
-        return customerService.saveCustomer(customer);
+    public ResponseEntity<Customer> registerNewCustomer(@RequestBody @Valid Customer customer) {
+        return new ResponseEntity(customerService.saveCustomer(customer), HttpStatus.CREATED);
     }
 
     @GetMapping("{customerId}/orders")
