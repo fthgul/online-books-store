@@ -1,0 +1,21 @@
+version: "3"
+services:
+  online-books:
+    image: online-books-store
+    ports:
+      - "8080:8080"
+    networks:
+      - studycase-mysql
+    depends_on:
+      - mysqldb
+
+  mysqldb:
+    image: mysql:8
+    networks:
+      - studycase-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=huawei123
+      - MYSQL_DATABASE=online_books_store
+
+networks:
+  studycase-mysql:
