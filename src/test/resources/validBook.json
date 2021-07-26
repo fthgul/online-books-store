@@ -1,0 +1,8 @@
+{
+  "name": "Kafka Examples7",
+  "author": "Kafka writer",
+  "price": "10.21",
+  "inventory": {
+    "quantity": 4
+  }
+}

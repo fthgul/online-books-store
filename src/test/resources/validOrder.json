@@ -1,0 +1,9 @@
+{
+  "customerId": 2,
+  "orderItems": [
+    {
+      "bookId": 5,
+      "quantity": 5
+    }
+  ]
+}

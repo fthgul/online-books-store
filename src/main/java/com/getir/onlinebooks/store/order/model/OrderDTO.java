@@ -16,7 +16,7 @@ public class OrderDTO {
     private BigDecimal totalAmount;
     private Date orderDate;
     @NotNull(message = "orderItem cannot be null")
-    private List<OrderItemDTO> orderItems = new ArrayList<>();
+    private List<OrderItemDTO> orderItems;
 
     @Data
     public static class OrderItemDTO {
@@ -28,6 +28,9 @@ public class OrderDTO {
     }
 
     public void addOrderItemDTO(OrderItemDTO orderItemDTO) {
+        if(orderItems == null) {
+            orderItems = new ArrayList<>();
+        }
         orderItems.add(orderItemDTO);
     }
 }
