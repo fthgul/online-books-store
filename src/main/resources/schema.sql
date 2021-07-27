@@ -62,10 +62,12 @@ create unique index FK_INVENTORY_BOOK_ID
 
 -- view for statistics
 create view monthly_order_statistic_view as
-select count(distinct o.id) as total_order_count,
+select
+       uuid() as id,
+       count(distinct o.id) as total_order_count,
        sum(oi.quantity)      as total_book_count,
        sum(oi.sub_total)    as total_purchased_amount,
-       MONTHNAME(order_date)    as month
+       MONTH(order_date)    as month
 from orders o
          left join order_item oi on o.id = oi.order_id
 Group By MONTH(o.order_date);

@@ -18,7 +18,7 @@ import java.math.BigDecimal;
 public class MonthlyOrderStatistic {
 
     @Id
-    private Long id;
+    private String id;
 
     @Column(name = "total_order_count")
     private BigDecimal totalOrderCount;
@@ -26,7 +26,7 @@ public class MonthlyOrderStatistic {
     @Column(name = "total_book_count")
     private Long totalBookCount;
 
-    @Column(name = "total_purchased_amaount")
+    @Column(name = "total_purchased_amount")
     private BigDecimal totalPurchasedAmount;
 
     @Column(name = "month")
