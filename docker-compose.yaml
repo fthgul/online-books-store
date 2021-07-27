@@ -14,7 +14,7 @@ services:
     networks:
       - studycase-mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=huawei123
+      - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=online_books_store
 
 networks:
